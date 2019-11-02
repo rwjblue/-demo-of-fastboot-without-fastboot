@@ -22,6 +22,8 @@
     "@ember/optional-features": "^1.0.0",
     "babel-eslint": "^10.0.3",
     "broccoli-asset-rev": "^3.0.0",
+    "broccoli-concat": "^3.7.4",
+    "broccoli-merge-trees": "^3.0.2",
     "ember-cli": "~3.14.0-beta.1",
     "ember-cli-app-version": "^3.2.0",
     "ember-cli-babel": "^7.11.1",
@@ -45,7 +47,8 @@
     "eslint-plugin-ember": "^7.1.0",
     "eslint-plugin-node": "^10.0.0",
     "loader.js": "^4.7.0",
-    "qunit-dom": "^0.9.0"
+    "qunit-dom": "^0.9.0",
+    "simple-dom": "^1.4.0"
   },
   "engines": {
     "node": "8.* || >= 10.*"

@@ -1,58 +1,16 @@
 # demo-of-profiling-ssr-without-fastboot
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+This is a small demo showing the lower level APIs that `fastboot` implements.
+It is meant to provide insight into just what is happening under the hood in
+the `fastboot` package. It can also serve as a way to profile fastboot
+_without_ the sandboxing that is normally done.
 
-## Prerequisites
+In order to run this little demo, you need to do:
 
-You will need the following things properly installed on your computer.
+```
+ember build
+node render-page.js
+```
 
-* [Git](https://git-scm.com/)
-* [Node.js](https://nodejs.org/)
-* [Yarn](https://yarnpkg.com/)
-* [Ember CLI](https://ember-cli.com/)
-* [Google Chrome](https://google.com/chrome/)
-
-## Installation
-
-* `git clone <repository-url>` this repository
-* `cd demo-of-profiling-ssr-without-fastboot`
-* `yarn install`
-
-## Running / Development
-
-* `ember serve`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
-* Visit your tests at [http://localhost:4200/tests](http://localhost:4200/tests).
-
-### Code Generators
-
-Make use of the many generators for code, try `ember help generate` for more details
-
-### Running Tests
-
-* `ember test`
-* `ember test --server`
-
-### Linting
-
-* `yarn lint:hbs`
-* `yarn lint:js`
-* `yarn lint:js --fix`
-
-### Building
-
-* `ember build` (development)
-* `ember build --environment production` (production)
-
-### Deploying
-
-Specify what it takes to deploy your app.
-
-## Further Reading / Useful Links
-
-* [ember.js](https://emberjs.com/)
-* [ember-cli](https://ember-cli.com/)
-* Development Browser Extensions
-  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
+As you can see the application is super tiny, but the general technique done
+here should work across nearly any normal ember-cli based Ember application.

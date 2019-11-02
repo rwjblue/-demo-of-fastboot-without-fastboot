@@ -30,6 +30,7 @@ module.exports = {
         'blueprints/*/index.js',
         'config/**/*.js',
         'lib/*/index.js',
+        'render-page.js',
         'server/**/*.js'
       ],
       parserOptions: {
